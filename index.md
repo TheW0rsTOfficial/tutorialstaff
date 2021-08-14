@@ -1,37 +1,43 @@
-## Welcome to GitHub Pages
+## Spiegazione Bot Whitelist
 
-You can use the [editor on GitHub](https://github.com/TheW0rsTOfficial/tutorialstaff/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Bot Whitelist Discord serve per facilitare uno staff dopo aver eseguito una whitelist a un player.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Prefix
 
-### Markdown
+Il Prefix (Prefisso) del bot è: -
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Esempio: -statuswhitelist
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+## STATUSWHITELIST
 
-- Bulleted
-- List
+-statuswhitelist: steam:hex
 
-1. Numbered
-2. List
+esempio: -statuswhitelist: steam:dfgdfgd
 
-**Bold** and _Italic_ and `Code` text
+## STATUSWHITELISTDS
 
-[Link](url) and ![Image](src)
-```
+-statuswhitelist: ds:id
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+esempio: -statuswhitelistds: ds:81201843900238
 
-### Jekyll Themes
+## ADDWHITELIST
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/TheW0rsTOfficial/tutorialstaff/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+-addwhitelist: steam:hex ds:id staff:Nome staff
+
+esempio: -addwhitelist: steam:sd32gsd3 ds:8345345934 staff:TheWorst
+
+Ps. Ricordiamo è assolutissimamente importante mettere il Nome Discord dello staff che ha eseguito la whitelist.
+
+## REMOVEWHITELIST
+
+n-removewhitelist: steam:hex
+
+esempio: -removewhitelist: steam:sd32gsd3 
+
+Ps. Ricordiamo è assolutissimamente importante non sbagliare steamhex.
+
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Contattate TɦeWσɾst 🤹🏻#8794
